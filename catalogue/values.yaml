@@ -3,4 +3,4 @@ ConfigMap:
 deployment:
   replicas: "1"
   imageName: "yash8575/catalogue"
-  imageVersion: "1.4.0"
+  imageVersion: "1.0.0"
