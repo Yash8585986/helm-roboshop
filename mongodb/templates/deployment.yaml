@@ -26,4 +26,4 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: "{{ .values.deployment.image }}:{{ .values.deployment.imageversion }}"
+        image: "{{ .values.deployment.image }}:{{ .values.deployment.imageVersion }}"
