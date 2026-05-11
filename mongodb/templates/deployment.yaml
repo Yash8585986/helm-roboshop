@@ -10,7 +10,7 @@ metadata:
     component: mongodb
 spec:
   replicas: {{ .Values.deployment.replicas }}
-    selector:
+  selector:
     # using these labels replica set selects the pod
     matchLabels:
       project: roboshop
