@@ -1,0 +1,4 @@
+deployment:
+  replicas: "1"
+  image: "yash8575/mongodb"
+  imageversion: "1.0.0"
